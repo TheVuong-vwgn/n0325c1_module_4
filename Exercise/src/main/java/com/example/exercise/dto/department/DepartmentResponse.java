@@ -1,15 +1,15 @@
-package com.example.demo.controller;
+package com.example.exercise.dto.department;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Student {
-     int id;
-     String name;
-     double score;
+public class DepartmentResponse {
+    Integer Id;
+    String name;
 }

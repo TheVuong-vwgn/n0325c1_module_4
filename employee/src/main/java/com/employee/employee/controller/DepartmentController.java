@@ -3,6 +3,7 @@ package com.employee.employee.controller;
 import com.employee.employee.dto.JsonResponse;
 import com.employee.employee.exception.AppException;
 import com.employee.employee.exception.ErrorCode;
+import com.employee.employee.model.Department;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

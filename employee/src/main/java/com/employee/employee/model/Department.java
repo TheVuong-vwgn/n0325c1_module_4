@@ -1,4 +1,4 @@
-package com.employee.employee.controller;
+package com.employee.employee.model;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
